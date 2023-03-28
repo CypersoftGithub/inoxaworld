@@ -1,0 +1,30 @@
+info@q7ceramic.com
+
+9727770302
+
+tilesview (tilesview.com)
+
+WkMCUyrkP7hH
+
+
+	$to = $email_to;
+		$subject = 'Contact from '.company;
+		$msg= "This Contact mail is coming from ".web_link." \n Name:" . $name. "\nEmail:" . $email. "\nPhone:" . $phone . "\nMessagee:" .$message . "\n Catalogue Download Details:".$details ;
+		$from = $email;
+		$headers = "From:" . $from;
+		
+
+	$msg = $this->mail_smtp($to,$subject,$msg,$headers);
+
+function mail_smtp($to,$subject,$msg,$headers){
+
+		$fromname = "Inquiry From Website";
+		$fromemail = "web.lightlink@gmail.com";
+
+		if(SMTPMailSend($to,$subject,$msg,$fromname,$fromemail)){
+			return true;	
+		}else{
+			return false;
+		}
+
+	}
