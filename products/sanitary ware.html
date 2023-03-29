@@ -167,7 +167,7 @@
 </style>
 
 <div class="breadcrumb-area on-touch" style="background-image: url(https://cotobathware.com/img/header/contact-us.jpg);">
-   <h2 class="page-title">Bath Accessories</h2>
+   <h2 class="page-title">Table Top Basin</h2>
 </div>
 <div class="page-content service-details padding-top-100 padding-bottom-100">
     <div class="container-fluid">
@@ -179,16 +179,16 @@
                         <div id="accordion" class="myaccordion">
 
                         								<div class="card">
-							    <div class="card-header" id="headingTwo">
+							    <div class="card-header" id="headingOne">
 							      <h2 class="mb-0">
-							        <button class="d-flex align-items-center justify-content-between btn btn-link " data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+							        <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 							          Sanitaryware							          <span class="fa-stack fa-sm">
-							            <i class="fa fa-plus fa-stack-1x fa-inverse"></i>
+							            <i class="fa fa-minus fa-stack-1x fa-inverse"></i>
 							          </span>
 							        </button>
 							      </h2>
 							    </div>
-							    <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordion">
+							    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
 							      <div class="card-body">
 							        <ul>
 							        	
@@ -200,7 +200,7 @@
 	                                    
 							          	<li><a href="https://cotobathware.com/products/sanitaryware/top-under-counter-basin" class="readmore ">Top & Under Counter Basin</a></li>
 	                                    
-							          	<li><a href="https://cotobathware.com/products/sanitaryware/table-top-basin" class="readmore ">Table Top Basin</a></li>
+							          	<li><a href="https://cotobathware.com/products/sanitaryware/table-top-basin" class="readmore sizeactive">Table Top Basin</a></li>
 	                                    
 							          	<li><a href="https://cotobathware.com/products/sanitaryware/wash-basin-pedestal" class="readmore ">Wash Basin Pedestal</a></li>
 	                                    
@@ -218,16 +218,16 @@
 							    </div>
 							</div>
 													<div class="card">
-							    <div class="card-header" id="headingOne">
+							    <div class="card-header" id="headingTwo">
 							      <h2 class="mb-0">
-							        <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							        <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
 							          Faucets							          <span class="fa-stack fa-sm">
-							            <i class="fa fa-minus fa-stack-1x fa-inverse"></i>
+							            <i class="fa fa-plus fa-stack-1x fa-inverse"></i>
 							          </span>
 							        </button>
 							      </h2>
 							    </div>
-							    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							    <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordion">
 							      <div class="card-body">
 							        <ul>
 							        	
@@ -261,7 +261,7 @@
 	                                    
 							          	<li><a href="https://cotobathware.com/products/faucets/lites" class="readmore ">Lites</a></li>
 	                                    
-							          	<li><a href="https://cotobathware.com/products/faucets/bath-accessories" class="readmore sizeactive">Bath Accessories</a></li>
+							          	<li><a href="https://cotobathware.com/products/faucets/bath-accessories" class="readmore ">Bath Accessories</a></li>
 	                                    
 							          	<li><a href="https://cotobathware.com/products/faucets/shower-accessories" class="readmore ">Shower & Accessories</a></li>
 	                                    							        </ul>
@@ -656,7 +656,7 @@ $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
     jQuery(window).on('scroll', onScroll); 
 
     jQuery('body').scrollTop(0); 
-    var total_pages = 0;
+    var total_pages = 5;
     var start = 0;
     var limit = 8;
     var loaddatamore = 1;
@@ -665,8 +665,8 @@ $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
     
     // id
     
-    var menuid = '2';
-    var sizeid = '30';
+    var menuid = '1';
+    var sizeid = '7';
      //var seriesid = '';
     
     var series_no_status = '2'; 
@@ -675,14 +675,14 @@ $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
     
     // name 
     
-    var menuname = 'Faucets';
-    var sizename = 'Bath Accessories';
+    var menuname = 'Sanitaryware';
+    var sizename = 'Table Top Basin';
      //var seriesname = '';
     
     // slug
     
-    var menuslug = 'faucets';
-    var sizeslug = 'bath-accessories';
+    var menuslug = 'sanitaryware';
+    var sizeslug = 'table-top-basin';
      //var seriesslug = '';
     
     var sorting = 1;
