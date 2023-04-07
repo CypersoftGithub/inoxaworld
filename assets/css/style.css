@@ -2415,7 +2415,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     transition: all 0.3s ease-in;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav {
-    text-align: center;
+    text-align: right;
     z-index: 2;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li {
