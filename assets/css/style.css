@@ -1857,7 +1857,6 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .widget ul li a {
-    display: block;
     color: inherit;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
