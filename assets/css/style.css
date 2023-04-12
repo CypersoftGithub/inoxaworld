@@ -10,7 +10,7 @@
     --heading-color: #ffffff;
     --paragraph-color: #cacaca;
     --hover-color: #aaa;
-    --hover-pink: #ec47a0;
+    --hover-pink: #cb2127;
     --bg-color: #fafafa;
     --bg-color-two: #fff;
     --heading-font: 'FuturaPTW01-Light';
@@ -6135,7 +6135,41 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     margin-right: 40px;
     width: 100px;
 }
-
+/*--------------------------------------------------------------
+# Stats Counter Section
+--------------------------------------------------------------*/
+.stats-counter {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  
+  @media (min-width: 1365px) {
+    .stats-counter {
+      background-attachment: fixed;
+    }
+  }
+  
+  .stats-counter .stats-item {
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .stats-counter .stats-item span {
+    font-size: 48px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .stats-counter .stats-item p {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+  }
 /* ----------------------------------
     :: => Work Section
 ---------------------------------- */
