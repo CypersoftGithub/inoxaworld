@@ -1,41 +1,41 @@
 // easeScrolling page
 
-    $("html").easeScroll({
-        frameRate: 60,
-        animationTime: 3000,
-        stepSize: 120,
-        pulseAlgorithm: !0,
-        pulseScale: 8,
-        pulseNormalize: 1,
-        accelerationDelta: 20,
-        accelerationMax: 1,
-        keyboardSupport: !0,
-        arrowScroll: 50
-      });
+    // $("html").easeScroll({
+    //     frameRate: 60,
+    //     animationTime: 3000,
+    //     stepSize: 120,
+    //     pulseAlgorithm: !0,
+    //     pulseScale: 8,
+    //     pulseNormalize: 1,
+    //     accelerationDelta: 20,
+    //     accelerationMax: 1,
+    //     keyboardSupport: !0,
+    //     arrowScroll: 50
+    //   });
 
     
 // filter sticky
 
-    $(document).ready(function() {
-      var $window = $(window);  
-      var $sidebar = $(".main-filter"); 
-      var $sidebarHeight = $sidebar.innerHeight();   
-      var $footerOffsetTop = $(".footer-area").offset().top - 100; 
-      var $sidebarOffset = $sidebar.offset();
+    // $(document).ready(function() {
+    //   var $window = $(window);  
+    //   var $sidebar = $(".main-filter"); 
+    //   var $sidebarHeight = $sidebar.innerHeight();   
+    //   var $footerOffsetTop = $(".footer-area").offset().top - 100; 
+    //   var $sidebarOffset = $sidebar.offset();
       
-      $window.scroll(function() {
-        if($window.scrollTop() > $sidebarOffset.top) {
-          $sidebar.addClass("fixed");   
-        } else {
-          $sidebar.removeClass("fixed");   
-        }    
-        if($window.scrollTop() + $sidebarHeight > $footerOffsetTop) {
-          $sidebar.css({"top" : -($window.scrollTop() + $sidebarHeight - $footerOffsetTop)});        
-        } else {
-          $sidebar.css({"top": "120px"});  
-        }    
-      });   
-    });
+    //   $window.scroll(function() {
+    //     if($window.scrollTop() > $sidebarOffset.top) {
+    //       $sidebar.addClass("fixed");   
+    //     } else {
+    //       $sidebar.removeClass("fixed");   
+    //     }    
+    //     if($window.scrollTop() + $sidebarHeight > $footerOffsetTop) {
+    //       $sidebar.css({"top" : -($window.scrollTop() + $sidebarHeight - $footerOffsetTop)});        
+    //     } else {
+    //       $sidebar.css({"top": "120px"});  
+    //     }    
+    //   });   
+    // });
 
 
 

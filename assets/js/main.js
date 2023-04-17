@@ -522,10 +522,10 @@
 
 
         // Nice scroll js
-        $(".terms-area").niceScroll(".terms-wraper", {
-            cursorcolor: "#c2976b",
-            cursorwidth: "10px",
-        });
+        // $(".terms-area").niceScroll(".terms-wraper", {
+        //     cursorcolor: "#c2976b",
+        //     cursorwidth: "10px",
+        // });
 
       
 
