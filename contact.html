@@ -403,7 +403,7 @@
     });
 
     </script>
-    <script src="https://cotobathware.com/assets/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
 
     <div class="modal fade" id="lang" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -499,58 +499,3 @@ $(document).ready(function(){
 
 </body>
 </html>
-<script type="text/javascript">
-    var specialKeys = new Array();
-    specialKeys.push(8); //Backspace
-    $(function () {
-        $("#phone").bind("keypress", function (e) {
-            var keyCode = e.which ? e.which : e.keyCode
-            var ret = ((keyCode >= 48 && keyCode <= 57) || specialKeys.indexOf(keyCode) != -1);
-            //$(".error").css("display", ret ? "none" : "inline");
-            return ret;
-        });
-
-         $("#phone").bind("paste",function(e) {  
-                     e.preventDefault();  
-                });
-        
-    });
-</script>
-
-<script>
-jQuery(document).ready(function(){
-
- jQuery('#cFrm').on('submit', function(event){
-    
-  event.preventDefault();
-  jQuery.ajax({
-   url:"https://cotobathware.com/c-inquiry.php",
-   method:"POST",
-   data:$(this).serialize(),
-   dataType:"json",
-   beforeSend:function()
-   {
-    jQuery('#cBtn').attr('disabled','disabled');
-   },
-   success:function(data)
-   {
-    jQuery('#cBtn').attr('disabled', false);
-    if(data.success)
-    {
-     alert("Thanks for Contact Us.");
-     window.location.href = "https://cotobathware.com/contact";   
-    }
-    else
-    {
-     jQuery('#name_error').text(data.name_error);
-     jQuery('#phone_error').text(data.phone_error);
-     jQuery('#email_error').text(data.email_error);
-     jQuery('#captcha_error').text(data.captcha_error);
-    }
-   }
-  })
- });
-
-});
-</script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
