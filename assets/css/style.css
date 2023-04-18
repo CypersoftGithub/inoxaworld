@@ -2405,7 +2405,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     cursor: pointer;
 }
 .navbar-area.nav-style-01 .nav-container .nav-right-content ul li a {
-    color: var(--bg-color-two);
+    color: #373737;
 }
 .navbar-area.nav-style-01 .nav-container .nav-right-content ul li:hover {
     color: #000;
@@ -2431,7 +2431,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-    color: var(--bg-color-two);
+    color: #373737;
     font-weight: 500;
 }
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav li:hover a {
@@ -2516,7 +2516,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     margin-left: 20px;
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
-    color: var(--hover-color);
+    color: #cb2127;
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children {
     position: relative;
@@ -2579,7 +2579,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     color: var(--hover-color);
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li:hover {
-    color: var(--hover-color);
+    color: #cb2127;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;

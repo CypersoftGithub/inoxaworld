@@ -57,7 +57,8 @@ span.whats-app {
     z-index: 111;
 }
 .header-section{
-	background-image: url(../../img/bg-tiles2.jpg);
+  background-color: white;
+/*	background-image: url(../../img/bg-tiles2.jpg);*/
 }
 .thmbtn{
     text-transform: uppercase;
@@ -67,7 +68,7 @@ span.whats-app {
     background: #ffffffd9;
     color: #1c1b17;
     font-weight: 600;
-    border: 1px solid #cacaca;
+    border: 1px solid #373737;
 }
 .thmbtn:before, .thmbtn:after{
 	content: '';
@@ -104,10 +105,10 @@ span.whats-app {
 }
 .thmbtn.dark{
 	background: transparent;
-    color: #ffffffd9 !important;
+    color: #373737 !important;
 }
 .thmbtn.dark:before, .thmbtn.dark:after{
-	background-color: #ffffffd9;
+	background-color: #373737;
 }
 .footer-area{
 	box-shadow: 0 -18px 15px -20px #000;
