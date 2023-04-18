@@ -6184,7 +6184,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 
 .testimonials .testimonial-item .testimonial-content {
-  border-left: 3px solid var(--color-primary);
+  border-left: 3px solid #cb2127;
   padding-left: 30px;
 }
 
@@ -6198,13 +6198,13 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: var(--color-default);
+  color: #fff;
   font-family: var(--font-secondary);
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #6c757d;
+  color: var(--hover-color);
   margin: 0 0 10px 0;
   font-family: var(--font-secondary);
 }
@@ -6238,6 +6238,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .testimonials .testimonial-item p {
   font-style: italic;
 }
+.testimonials .testimonial-item p i{
+    color: #f05656;
+  }
 
 .testimonials .swiper-pagination {
   margin-top: 40px;
@@ -6247,12 +6250,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #d1d1d7;
+  background-color: #fff;
   opacity: 1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: #f05656;
 }
   
 /* ----------------------------------
