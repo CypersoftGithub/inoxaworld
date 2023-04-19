@@ -41,7 +41,7 @@ html {
 
 body {
     margin: 0;
-    background-image: url(../../img/bg-tiles2.jpg);
+    background-color: #000 ;
     color: var(--hover-color);
     font-family: var(--body-font);
     overflow-x: hidden;
@@ -2510,7 +2510,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
-    line-height: 50px;
+    line-height: 30px;
 }
 .navbar-area .nav-container .navbar-collapse .navbar-nav li + li {
     margin-left: 20px;
@@ -12834,3 +12834,30 @@ ul.certi li img {
     width: 85%;
 	text-align: justify;
 }
+.btn-pulse:hover {
+    animation: pulse 1s ;
+    transition: .5s;
+    cursor: pointer;
+    border-color: red;
+    color: red !important;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    70% {
+      transform: scale(.8);
+    }
+      100% {
+      transform: scale(1);
+    }
+  }
+  
+  .contact-btn{
+    display: flex;
+    justify-content: center;
+     width: 150px !important;
+      border: 1px solid;
+      padding: 2px 0 !important;
+  }

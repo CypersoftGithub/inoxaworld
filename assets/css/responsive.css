@@ -547,7 +547,7 @@
 /* Mwdium Desktop Layout */
 @media only screen and (max-width: 1366px) {
   .navbar-area.nav-style-01 {
-    height: 80px;
+    height: 65px;
   }
   .nav-container {
     max-width: 1170px;
@@ -2613,7 +2613,6 @@
 .logo-wrapper img {
     width: 135px;
 }
-.navbar-toggler{padding-top:16px;}
 .navbar-area.nav-style-01 .responsive-mobile-menu .cross-menu .bar1, .navbar-area.nav-style-01 .responsive-mobile-menu .cross-menu .bar2, .navbar-area.nav-style-01 .responsive-mobile-menu .cross-menu .bar3{height:2px;}
 .navbar-area.nav-style-01 .nav-container .navbar-collapse{background-image: url(../../img/bg-tiles2.jpg);}
 .navbar-area.nav-style-01 .nav-container .navbar-collapse .navbar-nav{background:transparent;}
