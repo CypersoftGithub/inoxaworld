@@ -175,7 +175,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="contact-info">
-                    <form class="contact-form" id="Request_Form" action="" name="Request_Form" method="post" target="_self" >
+                    <form class="contact-form" id="Request_Form" action="" name="Request_Form" method="POST" target="_self" >
                         <div class="row" >
                             <div class="col-md-12">
                                 <div class="sub-section-title padding-bottom-25 text-center">
@@ -229,7 +229,7 @@
       form.addEventListener('submit', e => {
         e.preventDefault()
         
-        fetch(scriptURL, { method: 'post', body: new FormData(form) })
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => alert('Success!'))
         .catch(error => alert('Error!'))
         form.reset()
