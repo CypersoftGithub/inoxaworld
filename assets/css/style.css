@@ -4423,6 +4423,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     height: 2px;
     background-color: var(--hover-color);
 }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 /* ----------------------------------
     :: => Banner Section
@@ -12659,7 +12665,45 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
+/* product animation */
+/* .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .images {
+    display: block;
+    width: 350px;
+    height: 350px;
+  }
+  
+  .overlays {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #cb2127 ;
+    overflow: hidden;
+    width: 350px;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlays {
+    height: 100%;
+  }
+  
+  .txt {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
 /*----------------------------------------
   ## Section title
 ----------------------------------------*/
@@ -12731,7 +12775,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 	text-align:center;
 }
 .full-view a {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: inline-block;
 }
 .inner-text{

@@ -29,16 +29,17 @@
     color: #1d1d1f;
 }
 #help-button {
+    align-items: end;
     position: fixed;
     max-width: 500px !important;
-    bottom: 22px !important;
-    left: 23px;
+    bottom: 5px !important;
+    right: 23px;
     cursor: pointer;
     z-index: 1000;
     margin-bottom: 1%;
 }
 div#help-button img {
-    width: 34px;
+    width: 60px;
 }
 span.whats-app {
     background: #2ea042;
@@ -120,7 +121,7 @@ span.whats-app {
 .creative-team{
   position: relative;
 }
-.creative-team:before{
+/* .creative-team:before{
   position: absolute;
   content: '';
   display: inline-block;
@@ -133,7 +134,7 @@ span.whats-app {
   background-size: contain;
   background-position: center;
   filter: brightness(0.4) contrast(0.4);
-}
+} */
 .text-white{
   color: #fff;
 }

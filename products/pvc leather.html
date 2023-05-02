@@ -4,6 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .image {
+          display: block;
+          width: 350px;
+          height: 350px;
+        }
+        
+        .overlay {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: #cb2127 ;
+          overflow: hidden;
+          width: 350px;
+          height: 0;
+          transition: .5s ease;
+        }
+        
+        .container:hover .overlay {
+          height: 100%;
+        }
+        
+        .text {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        </style>
+
+
     <title>Product | PVC leather</title>
     <meta name="keywords" content="Inoxaworld, Ceramic Tiles, SPC Flooring, Sanitary Ware, Quartz Sink, Paper Products, Craft Paper, Duplex Boards, Corrugated Box, pvc leather, Export"/>
     <meta name="description" content="In Morbi, Gujarat, India, there is an exporter of ceramic tiles, SPC flooring, sanitary ware, quartz sinks, paper products, craft paper, duplex boards, corrugated boxes, PP corrugated sheets and particle board."/>
@@ -39,6 +81,7 @@
     <link rel="stylesheet" href="../vendor/revslider/css/settings.css">
 
     <link rel="stylesheet" href="../assets/css/app.css">
+    
 </head>
 
 <body>
@@ -69,7 +112,7 @@
                             <li class="Download"><a href="../about.html">About</a></li>
     
                             <li class="menu-item-has-children Products sanitaryware">
-                              <a href="javascript:void(0);">Product<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#cccaca" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down vertical-midle"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                              <a href="javascript:void(0);">Product<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down vertical-midle"><polyline points="6 9 12 15 18 9"></polyline></svg>
                               </a>
                                 <ul class="sub-menu">
                                     
@@ -124,7 +167,7 @@
  <div class="testi-title section-title padding-bottom-10 padding-top-30">
  <h2 class="title padding-bottom-10">PVC <b class="thm-light">leather</b></h2>
  </div>
- <div class="page-content service-details padding-top-20 padding-bottom-10">
+ <!-- <div class="page-content service-details padding-top-20 padding-bottom-10">
      <div class="container-fluid">
          <div class="row">   
              <div>           
@@ -141,7 +184,17 @@
              </div>
          </div>
      </div>
- </div>
+ </div> -->
+ <div class="container">
+    <div class="row">
+            <a href="../contact.html">
+                <img src="..\img\productimg\pvc leather.jpg" alt="pvc leather" class="image">
+                <div class="overlay">
+                    <div class="text">Get A Quote</div>
+                </div>
+            </a>
+    </div>
+  </div>
 
 <footer class="footer-area">
     <div class="footer-top padding-top-100 padding-bottom-65">
@@ -149,7 +202,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 pr-5">
                     <div class="footer-widget widget pr-5 pt-3">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d277.5495320388465!2d70.81491761585964!3d22.800419021629676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39598d4b47238337%3A0xc41584dc1459527e!2sCypersoft!5e0!3m2!1sen!2sin!4v1680332022010!5m2!1sen!2sin" width="600" height="300" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.0354248586236!2d70.81364921485128!3d22.80115121932187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa50ea1d6f9af8b6b%3A0x80a7ef6c42f693b9!2sInoxa%20World!5e0!3m2!1sen!2sin!4v1682752250977!5m2!1sen!2sin" width="600" height="300" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -162,7 +215,7 @@
                                 <i class="fas fa-map-marker-alt "></i> &nbsp;<b>INOXA WORLD Export </b>
                             </div>
                             <address class="pt-3">
-                                Plot no - 17, Shivam<br />Sanala Road,<br /> Morbi &ndash; Gujarat, 363641, India.
+                                Sanala Road,<br /> Morbi &ndash; Gujarat, 363641, India.
                             </address>
                             <ul class="contact_info_list">
                                 <li class="single-info-item">
@@ -248,8 +301,8 @@
     <!-- back to top area end -->
     <div id="help-button">
         <a href="https://wa.me/919313849914?text=Hii" target="_blank">
+            <span class="whats-app">Chat With Us</span>
         <img src="../img/icons/whatsapp1.png">
-        <span class="whats-app">Chat With Us</span>
         </a>
     </div>
     <!-- jquery -->
